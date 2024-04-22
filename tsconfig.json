@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@components/*": [
+                "./src/components/*"
+            ],
+            "@composables/*": [
+                "./src/composables/*"
+            ],
+            "@plugins/*": [
+                "./src/plugins/*"
+            ],
+        }
+    },
+}
