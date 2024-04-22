@@ -34,10 +34,10 @@ sidebar: false
 
 <script setup lang="ts">
     import Graph from '@components/Graph.vue';
-    import { data as projects } from "@composables/experiences.data";
+    import { data as experiences } from "@composables/experiences.data";
 </script>
 
-<Graph :projects="projects"/>
+<Graph :projects="experiences"/>
 ```
 - In your markdown files (the ones under the `experiences` folder in this example), add the following front matter:
 ```md
